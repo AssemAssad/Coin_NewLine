@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/menu_prices"
+        android:title="اسعار العملات"
+        android:icon="@drawable/menu_p_night"/>
+
+    <item android:id="@+id/menu_alarm"
+        android:title="منبه العملات"
+        android:icon="@drawable/menu_a_night"/>
+
+    <item android:id="@+id/menu_news"
+        android:title="اخبار وتقارير"
+        android:icon="@drawable/menu_n_night"/>
+
+
+
+</menu>

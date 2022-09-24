@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Fragments.news_and_reports">
+
+
+    <TextView
+        android:id="@+id/tv_news_reports"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:fontFamily="@font/swissra_bold"
+        android:paddingStart="30dp"
+        android:text="@string/tv_news_reports"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rec_news_and_reports"
+        android:layout_width="match_parent"
+        tools:listitem="@layout/news_item"
+        android:layout_height="match_parent" />
+</LinearLayout>

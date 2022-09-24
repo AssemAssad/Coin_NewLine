@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".NewsDetails">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="225dp"
+            android:background="@drawable/shape_twitter"
+            android:fontFamily="@font/swissra_bold"
+            android:text="@string/btn_news_back"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="12sp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_share_all"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape_twitter"
+            android:textAlignment="center"
+            android:textSize="12sp"
+            android:fontFamily="@font/swissra_bold"
+            android:text="@string/btn_news_share" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_title_news"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/swissra_bold"
+        android:text="@string/tv_title_news"
+        android:textAlignment="viewStart"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tv_time_news"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:textSize="10sp"
+        android:textColor="@color/white"
+        android:text="@string/tv_time_news" />
+
+    <ImageView
+        android:id="@+id/iv_news"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        app:srcCompat="@drawable/bitmap" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_share_facebook"
+            android:layout_width="128dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="27dp"
+            android:layout_weight="1"
+            android:backgroundTint="#2D609B"
+            android:background="@drawable/shape_twitter"
+            android:fontFamily="@font/swissra_normal"
+            android:textSize="10sp"
+            android:text="@string/btn_share_facebook"
+            android:textColor="@color/white" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_share_twitter"
+            android:layout_width="104dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/shape_twitter"
+            android:backgroundTint="#00C3F3"
+            android:fontFamily="@font/swissra_normal"
+            android:textSize="10sp"
+            android:text="@string/btn_share_twitter"
+            android:textColor="@color/white" />
+
+        <ImageButton
+            android:id="@+id/btn_share"
+            android:layout_width="29dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="20dp"
+            android:layout_weight="1"
+            android:background="@drawable/shape_twitter"
+            android:backgroundTint="#D8D8D8"
+            android:src="@drawable/ic_baseline_share_24" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginEnd="15dp"
+        android:padding="10dp"
+        android:layout_marginStart="15dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tv_big_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="@color/white"
+                android:fontFamily="@font/swissra_normal"
+                android:text="باستثناء عملة الريبل والتي أظهرت أداءاً ضعيفاً طوال الأسابيع القليلة الماضية، فإن العملات الرقمية الرئيسية في السوق بما في ذلك البيتكوين والاثيريوم وكاردانو قد ارتفعت قيمتها. وفي غضون الـ 24 ساعة الماضية، ازداد سعر البيتكوين بنسبة 8% وارتفعت قيمة الإيثر بنسبة 10%، كما وارتفعت قيمة كاردانو بنسبة 15%. وبينما انخفض سعر العملات الثلاث بهامش ضئيل في الثلاث ساعات الماضية، إلا أنهم لا زالوا يسجلون مكاسب يومية كبيرة نسبياً.  شعبية البيتكوين خلال عملية التصحيحٍ الكبيرة التي حدثت في أوائل كانون الثاني/يناير، هبطت أسعار معظم العملات الرقمية بنسبة أكثر من 50% من أعلى قيمة لها، إلا أنه من ناحية أخرى ازدادت شعبية البيتكوين أكثر. حيث أقبل المستثمرون على العملات الرقمية ذات التقلبات الأقل في الأسعار. وفي ذلك الوقت، ارتفع مؤشر هيمنة البيتكوين إلى 38%، إذ تعافت العملة من أدنى مستوياتها بعد انخفاض بنسبة  32%. وخلال الأسبوع الماضي، انخفض مؤشر هيمنة البيتكوين من 38% إلى 34%، مع انخفاض حجم معاملات البيتكوين اليومية إلى أكثر من النصف، أي من 490.000 إلى 242.000 دولار. باستثناء عملة الريبل والتي أظهرت أداءاً ضعيفاً طوال الأسابيع القليلة الماضية، فإن العملات الرقمية الرئيسية في السوق بما في ذلك البيتكوين والاثيريوم وكاردانو قد ارتفعت قيمتها. وفي غضون الـ 24 ساعة الماضية، ازداد سعر البيتكوين بنسبة 8% وارتفعت قيمة الإيثر بنسبة 10%، كما وارتفعت قيمة كاردانو بنسبة 15%. وبينما انخفض سعر العملات الثلاث بهامش ضئيل في الثلاث ساعات الماضية، إلا أنهم لا زالوا يسجلون مكاسب يومية كبيرة نسبياً.  شعبية البيتكوين خلال عملية التصحيحٍ الكبيرة التي حدثت في أوائل كانون الثاني/يناير، هبطت أسعار معظم العملات الرقمية بنسبة أكثر من 50% من أعلى قيمة لها، إلا أنه من ناحية أخرى ازدادت شعبية البيتكوين أكثر. حيث أقبل المستثمرون على العملات الرقمية ذات التقلبات الأقل في الأسعار. وفي ذلك الوقت، ارتفع مؤشر هيمنة البيتكوين إلى 38%، إذ تعافت العملة من أدنى مستوياتها بعد انخفاض بنسبة  32%. وخلال الأسبوع الماضي، انخفض مؤشر هيمنة البيتكوين من 38% إلى 34%، مع انخفاض حجم معاملات البيتكوين اليومية إلى أكثر من النصف، أي من 490.000 إلى 242.000 دولار.       "
+                />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

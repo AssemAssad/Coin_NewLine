@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Fragments.alarm_coinz_fragment">
+
+
+    <TextView
+        android:id="@+id/tv_alarm_coinz"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:fontFamily="@font/swissra_bold"
+        android:paddingStart="32dp"
+        android:text="@string/tv_alarm_coinz"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tv_type_coinz"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="20dp"
+        android:fontFamily="@font/swissra_normal"
+        android:paddingStart="27dp"
+        android:text="@string/tv_type_coinz"
+        android:textColor="#95989C"
+        android:textSize="9sp" />
+
+    <Spinner
+        android:id="@+id/sp_type_coinz"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="29dp"
+        android:background="@drawable/spinner"
+        android:paddingStart="15dp"
+        android:spinnerMode="dropdown"
+        android:textAlignment="viewStart" />
+
+
+    <TextView
+        android:id="@+id/tv_val_alarm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/swissra_normal"
+        android:paddingStart="29dp"
+        android:text="@string/tv_val_alarm"
+        android:textColor="#95989C"
+        android:textSize="9sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="21dp"
+        android:layout_marginEnd="29dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp">
+
+        <Spinner
+            android:id="@+id/sp_val_alarm"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@drawable/spinner_num"
+            android:entries="@array/spinner_num"
+            android:spinnerMode="dropdown" />
+
+
+        <EditText
+            android:id="@+id/et_num"
+            android:layout_width="70dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:background="@drawable/tv_alarm"
+            android:digits="0123456789.,$"
+            android:gravity="center"
+            android:hint="$10,000"
+            android:inputType="numberDecimal"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_add_alarm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="18dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="29dp"
+        android:background="@drawable/shape_btn"
+        android:fontFamily="@font/swissra_bold"
+        android:text="@string/btn_add_alarm"
+        android:textSize="13dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="30dp"
+        android:background="#F8F9FB" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rec_alarm"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="15dp"
+        tools:listitem="@layout/alarm_item" />
+
+
+</LinearLayout>
