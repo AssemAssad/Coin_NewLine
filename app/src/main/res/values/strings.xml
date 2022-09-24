@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">بلوك تيشن</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="prices_coinz">اسـعار العملات الالكترونية</string>
+    <string name="tv_time_last_update">09-19-2018</string>
+    <string name="tv_last_update">آخر تحديث:</string>
+    <string name="tv_name_card1">Bitcoin بيتكوين</string>
+    <string name="tv_prices_card1">10,544.69 $</string>
+    <string name="tv_prices_card2">10,544.69 $</string>
+    <string name="tv_name_card2">Ripple ريبـل</string>
+    <string name="tv_name_card3">اضغط للاضافة</string>
+    <string name="tv_prices_card3">10,544.69 $</string>
+    <string name="tv_name_card4">Ethereum ايثيريوم</string>
+    <string name="tv_prices_card4">10,544.69 $</string>
+    <string name="tv_trading">التداول</string>
+    <string name="tv_prices">السعر</string>
+    <string name="tv_coinz">العملة</string>
+    <string name="tv_alarm_coinz">منبه العملات</string>
+    <string name="tv_type_coinz">يرجى اختيـار نوع العملة</string>
+    <string name="tv_val_alarm">يرجى تحديد قيمة المنبه</string>
+    <string name="btn_add_alarm">اضـــافة تنبيه</string>
+    <string name="tv_news_reports">اخبـار وتقارير</string>
+    <string name="tv_title_news">انتعاش في قيمة العملات الرقمية الرئيسية تمثلت بارتفاع كل من البيتكوين والاثيريوم</string>
+    <string name="tv_time_news">25 يناير 2018</string>
+    <string name="btn_share_twitter">مشاركة عبر تويتر</string>
+    <string name="btn_share_facebook">مشاركة عبر فيسبوك</string>
+    <string name="tv_percent">8.19%</string>
+    <string name="tv_prices_item">151,888,89</string>
+    <string name="tv_name_item">Bitcoin بيتكوين</string>
+    <string name="tv_num_item">1</string>
+    <string name="tv_title_news_item">منصة Coinbase تجني 2.7 مليون دولار يوميًا</string>
+    <string name="tv_time_news_item">12/22/2018</string>
+    <string name="btn_news_back">عودة</string>
+    <string name="btn_news_share">مشاركة</string>
+
+
+    <string-array name="spinner_num">
+        <item>اكبر من</item>
+        <item>اقل من</item>
+        <item>يساوي</item>
+    </string-array>
+</resources>
